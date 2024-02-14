@@ -5,4 +5,5 @@ WORKDIR /app
 # COPY: this will copy the whole directory to /app folder.(Assignment3).
 COPY . . 
 RUN npm install
+EXPOSE 3000
 CMD [ "node", "app.js" ]
